@@ -44,7 +44,6 @@ function startListening() {
 
     // remarcamos la palabra que fue predicha
     const elementId = `word-${index_word}`;
-    console.log(elementId);
     document.getElementById(elementId).classList.add('active');
 
     // y esperamos 2.5 segundos para desactivarla
